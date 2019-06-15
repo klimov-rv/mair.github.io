@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section class="slider-container">
+	<div class="slider-control left inactive"></div>
+	<div class="slider-control right"></div>
+	<ul class="slider-pagi"></ul>
+	<div class="slider">
+	  <div class="slide slide-0 active">
+		<div class="slide__bg" style="background-image: url({% include relative-src.html src=page.hero_img2 %})"></div>
+		<div class="slide__content">
+		  <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+			<path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+		  </svg>
+		  <div class="slide__text">
+			<h1 class="slide__text-heading">Оценка переезда</h1>
+			<a href="#fast-call-form-popup" class="slide__text-link button">Заказать</a>
+		  </div>
+		</div>
+	  </div>
+	  <div class="slide slide-1 ">
+		<div class="slide__bg" style="background-image: url({% include relative-src.html src=page.hero_img3 %})"></div>
+		<div class="slide__content">
+		  <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+			<path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+		  </svg>
+		  <div class="slide__text">
+			<h1 class="slide__text-heading">Упаковка</h1>
+			<a href="#fast-call-form-popup" class="slide__text-link button">Заказать</a>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</section>
+{{ content }}
