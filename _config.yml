@@ -1,6 +1,6 @@
 title: МАИР – Профессиональная сборка мебели
-url: "http://klimovproject.ru/mair.github.io/"
-baseurl: "/mair.github.io"
+url: "/mair.github.io"
+baseurl: "http://klimovproject.ru/mair.github.io/"
 site_phone_code: "495"
 site_phone_code2: "977"
 site_phone: 142 2329
